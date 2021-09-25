@@ -1,0 +1,20 @@
+public class Main {
+
+    public static void main(String[] args) {
+	 double[] liste= {1.2,1.3,4.3,5.6};
+      double total=0;
+      double enbuyuk = liste[0];
+      for (double sayilar:liste){
+          if (enbuyuk<sayilar){
+              enbuyuk = sayilar;
+          }
+
+          total = total+sayilar;
+          System.out.println(sayilar);
+      }
+        System.out.println("Toplam = "+total);
+        System.out.println("En Büyük = "+enbuyuk);
+
+    }
+}
+// Sayılarımızı Ergüman İçinde gösterdik ve ardından total ie sayılarımızı topladık ardından bir döngü oluşturup en büyük sayıyı if döngümüzle ayarladık ve ardından cmd ekranına yazdırdık
