@@ -1,0 +1,16 @@
+public class Main {
+
+    public static void main(String[] args) {
+	 int sayi1=1;
+     int sayi2=2;
+     int sayi3=3;
+        int enkucuk = sayi3;
+          if (enkucuk>sayi2){
+              enkucuk = sayi2;
+          }if (enkucuk>sayi1){
+              enkucuk = sayi1;
+        }
+        System.out.println("En kucuk sayi"+enkucuk);
+
+    }
+}
